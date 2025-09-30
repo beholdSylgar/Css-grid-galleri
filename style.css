@@ -15,7 +15,23 @@ background: #22384a;
 padding: 12px;
 border-radius: 6px;
 max-width: 720px;
-
-
-
+}
+/*en enskild ruta*/
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 4px;
+    color: #fff; /*vit text för kontrast*/
+}
+/*olika färger - styrs av extra klasser i HTML*/
+.c1{
+    background-color: #f47f61; /*korall*/
+}
+.c1{
+    background-color: #12b39a; /*turkos*/
+}
+.c3{
+    background-color: #f15b64; /*korall*/
 }
